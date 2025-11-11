@@ -998,9 +998,9 @@
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
   }
-  .text-\[\#\] {
+  /* .text-\[\#\] {
     color: #;
-  }
+  } */
   .text-\[\#c8c8c8\] {
     color: #c8c8c8;
   }
@@ -1227,13 +1227,10 @@
       }
     }
   }
-  .hover\:text-\[\#\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #;
-      }
-    }
-  }
+  .hover\:text-\[\#\] 
+    &:hover 
+    
+  
   .hover\:text-red-500 {
     &:hover {
       @media (hover: hover) {
@@ -1869,7 +1866,7 @@
       }
     }
   }
-}
+
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -2046,4 +2043,5 @@
       --tw-scale-z: 1;
     }
   }
+}
 }
