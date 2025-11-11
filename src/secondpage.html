@@ -1,0 +1,699 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  <title>Developers</title>
+</head>
+
+<body>
+
+  <div class="p-0 m-0 box-border">
+
+
+
+    <div class="bg-background1">
+
+      <!-- HEADER -->
+      <div class="bg-background1 fixed top-0 left-0 w-[100%] z-30">
+        <div class="w-[80%] mx-[10%] max-[1100px]:w-[95%] max-[1099px]:mx-[2.5%] relative">
+          <div class="flex items-center justify-between px-4  max-[1318px]:w-[100%] max-[1187px]:w-[100%]">
+            <!-- MENU BAR -->
+            <div class="hidden max-[1023px]:block relative">
+              <button id="menu-btn">
+                <i class="fas fa-bars text-white text-xl"></i>
+              </button>
+            </div>
+            <!-- LEFT SIDE -->
+            <div class="flex space-x-6 max-[1023px]:hidden items-center mt-[20px] cursor-pointer">
+              <div>
+                <img src="../pages/Images/landingpage/Home Icon.svg" alt="" class="max-[1023px]:hidden">
+              </div>
+
+              <li class="relative group">
+                <button id="AboutUs-dropdown-button" data-collapse-toggle="AboutUs-dropdown"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">About
+                  Us<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m1 1 4 4 4-4" />
+                  </svg></button>
+                <span
+                  class="absolute left-0 top-[47px] w-0 h-[4px] bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </li>
+
+
+
+
+              <li class="relative group">
+                <button id="investors-dropdown-button" data-collapse-toggle="investors-dropdown"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Investors<svg
+                    class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m1 1 4 4 4-4" />
+                  </svg></button>
+                <span
+                  class="absolute left-0 top-[47px] w-0 h-[4px] bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </li>
+
+
+              <li class="relative group">
+                <button id="Impact-dropdown-button" data-collapse-toggle="Impact-dropdown"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Our
+                  Imapct<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m1 1 4 4 4-4" />
+                  </svg></button>
+                <span
+                  class="absolute left-0 top-[47px] w-0 h-[4px] bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </li>
+
+
+
+              <li class="relative group">
+                <button id="Media-dropdown-button" data-collapse-toggle="Media-dropdown"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700">Media<svg
+                    class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m1 1 4 4 4-4" />
+                  </svg></button>
+                <span
+                  class="absolute left-0 top-[47px] w-0 h-[4px] bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </li>
+
+
+              <div class="flex items-center gap-[15px] relative group">
+                <p class="font-[UBA Sans, Roboto, sans-serif] font-[500] text-[#FAFAFA] leading-[24px] text-[16px]">
+                  Global
+                  Reach</p>
+                <img src="../pages/Images/search icon.svg" alt="">
+                <img src="../pages/Images/landingpage/Earth.svg" alt="">
+                <span
+                  class="absolute left-0 top-[47px] w-0 h-[4px] bg-red-600 transition-all duration-300 group-hover:w-[70%]"></span>
+              </div>
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="flex items-center space-x-3 mt-[20px]">
+              <div>
+                <button
+                  class="border border-[#393939] font-[UBA Sans, Roboto, sans-serif] font-[500] text-[#FAFAFA] leading-[24px] text-[16px] px-10 py-3 rounded-[10px] max-[1356px]:hidden relative hover:bg-red-600 max-[767px]:hidden">
+                  <img src="../pages/Images/landingpage/Padlock.svg" alt="" class="absolute left-2 bottom-3.5">Internet
+                  banking</button>
+              </div>
+              <img src="../pages/Images/landingpage/imgi_11_logo.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <hr class="text-[#393939] w-[100%] mt-3">
+
+        <div id="mobile-menu"
+          class="md:hidden hidden flex-col px-6 pt-4 pb-6 bg-black text-white space-y-4 border-b border-gray-800 absolute">
+          <a href="#" class="flex items-center space-x-2">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+          <div class="flex items-center space-x-2">
+            <span>About Us</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span>Investors</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span>Our Impact</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span>Media</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span>Support</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div>Global Reach</div>
+          <div class="flex items-center space-x-2">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <i class="fas fa-globe"></i>
+            <span>Language</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Toggle Script -->
+      <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+      </script>
+
+
+<!-- DROPDOWN FOR ABOUT US -->
+      <div class="bg-background1 absolute hidden z-2 pt-[100px] pb-[20px]" id="AboutUs-dropdown">
+        <div class="w-[80%] mx-[10%] flex gap-[20px] pt-[30px]">
+          <div class="w-[25%]">
+            <div class="pb-[25px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Who We
+                Are
+              </p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Africa's Global
+                bank; 24
+                countries, 4 continents and over 1000 branches.</p>
+            </div>
+            <div class="overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Awards
+                and
+                Achievements</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Recognitions
+                for Our
+                excellent
+                financial services since 1949</p>
+            </div>
+          </div>
+          <div class="w-[25%]">
+            <div class="pb-[25px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                CEO'S
+                Overview</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Get insights
+                and strategic
+                vision from our CEO</p>
+            </div>
+            <div class="overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Leadership</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Our leadership
+                comprises
+                globally respected experts shaping international finance.</p>
+            </div>
+          </div>
+          <div class="w-[25%]">
+            <div class="pb-[25px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Our
+                History</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Our Journey
+                from foundation
+                to industry leadership</p>
+            </div>
+            <div class="overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Our
+                strategy</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">At UBA Group,
+                strategy means
+                value for customers, shareholders and communities everywhere we operate.</p>
+            </div>
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div>
+              <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-5" v>
+                Quick
+                links</p>
+              <div class="flex">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-5">
+                  Global
+                  Presence</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-5">
+                  Africa
+                  Day 2024</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]pb-5">
+                  Special Projects</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- DROPDOWN FOR INVESTORS -->
+      <div class="bg-background1 pt-[100px] pb-[20px] absolute z-2 hidden" id="investors-dropdown">
+        <div class="w-[80%] mx-[10%] flex gap-[15px] pt-[30px]">
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Investors Relations
+              </p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]"> Explore UBA
+                Group's financial reports and insights designed to inform shareholders and investors</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Financial Reports</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Our full range of
+                financial statements and reports</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Investors/Analyst Presentations</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Key insights and
+                financial overviews for stakeholders from analyst</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div>
+              <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-5" v>
+                Quick
+                links</p>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] ">
+                  Credit Ratings</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] ">
+                  63rd AGM 2025</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DROPDOWN FOR OUR IMPACT -->
+      <div class="bg-background1 hidden absolute z-2 pt-[100px] pb-[20px]" id="Impact-dropdown">
+        <div class="w-[80%] mx-[10%] flex gap-[15px] pt-[30px]">
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Our Impact
+              </p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]"> Our community
+                development and sustainability initiatives</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                UBA Foundation</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Empowering
+                communities through education and economic development. </p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Sustainability</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Eco-friendly
+                initiatives to reduce our environmental footprint</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div>
+              <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-5" v>
+                Quick
+                links</p>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]">
+                  Trade Products</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]">
+                  Sustainability Report 2023</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DROPDOWN FOR MEDIA -->
+      <div class="bg-background1 hidden  absolute z-2 pt-[100px] pb-[20px]" id="Media-dropdown">
+        <div class="w-[80%] mx-[10%] flex gap-[15px] pt-[30px]">
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+            <a href="../src/thirdpage.html" class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">Media Centre</a>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]"> Latest news,
+                media releases, opinions images and videos from UBA.</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                The Lion King Online</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Lion King Online
+                is our quarterly in-house publication.</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div class="pb-[25px]">
+              <p
+                class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px] pb-[5px]">
+                Press Releases</p>
+              <p class="font-[Roboto sans-serif] font-[400] text-[#A3A3A3] text-[16px] leading-[20px]">Discover recent
+                news and updates in our latest press releases</p>
+            </div>
+
+          </div>
+          <div class="w-[25%] overflow-hidden transform transition duration-500 ease-in-out hover:scale-95 hover:bg-[#171717] hover:p-3 hover:border hover:rounded-[10px]">
+            <div>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]">
+                  Blog</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]">
+                  Podcast</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+              <div class="flex pb-5">
+                <p class="font-[UBA Sans Roboto sans-serif] font-[600] text-[#D4D4D4] text-[16px] leading-[24px]">
+                  Events</p>
+                <img src="../pages/Images/landingpage/Arrow.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class=" bg-background1 pt-30 max-md:pt-20 max-md:pb-10">
+      <div class=" w-[80%] mx-auto flex items-center gap-[45px] max-md:block max-md:w-[90%] max-md:mx-auto">
+        <div class="w-[30%] py-[20%] max-md:w-[90%] max-md:mx-auto max-[1026px]:py-[10%]">
+          <h1 class=" font-[UBA sans, Roboto, sans-serif] font-[700] text-[#FFFFFF] text-[48px] leading-[60px] max-md:text-[25px] max-md:leading-[50px] max-md:text-center">UBA for
+            Developers</h1>
+        </div>
+
+        <div class="bg-[#262626] w-[60%] border rounded-[20px] max-md:w-[90%] max-md:mx-auto ">
+          <img src="../pages/Images/landingpage/imgi_12_devs.webp" alt="" class="w-[100%] items-center">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bg-[#262626]">
+      <div>
+        <p class="font-[Roboto, sans-serif] text-[#FFFFFF] font-[400] leading-[28px] text-[18px] w-[50%] mx-auto pt-15 max-md:w-[90%] max-md:mx-auto max-md:text-center">
+          The UBA developer zone is an online hub access that allows budding developers and programmers to explore an
+          array of tools to hone their skills.</p>
+      </div>
+      <div class="bg-background1 border rounded-[20px] w-[80%] mx-auto p-6 mt-20 max-md:w-[90%] max-md:mx-auto ">
+        <h3 class="font-[Roboto, sans-serif] text-[#FAFAFA] font-[400] leading-[28px] text-[18px] pb-3">A one-stop shop
+          for everything you need to get going.</h3>
+        <p class="font-[Roboto, sans-serif] text-[#FFFFFF] font-[400] leading-[24px] text-[16px]">We have opened access
+          to our UBA programs that will be enabling smarter, connected, and differentiated systems and networks. These
+          environments lower your development time while allowing you to create custom hardware accelerators easily and
+          on demand.</p>
+
+      </div>
+
+      <div class="w-[80%] mx-auto pt-[50px] flex max-md:w-[90%] max-md:mx-auto max-md:block">
+        <div class="px-[7%] py-[10%] w-[100%] bg-background1 border rounded-tl-[20px] rounded-bl-[20px] max-md:border max-md:rounded-[20px] max-md:mb-[30px]">
+          <h3 class="font-[Roboto, sans-serif] text-[#FAFAFA] font-[400] leading-[28px] text-[18px]">Please Note</h3>
+          <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">Please check that
+            this initiative is available in your country. We operate in over 20 African countries, as well as in the UK,
+            America and Dubai, with a presence in Paris, France. Learn more by visiting the UBA website of your country.
+          </p>
+        </div>
+        <!-- <div> -->
+          <img src="../pages/Images/landingpage/imgi_86_Africas-Global-Bank-Who-we-are3.webp" alt=""
+            class="rounded-tr-[20px] rounded-br-[20px] max-md:border max-md:rounded-[20px] w-[50%] max-md:w-[100%]">
+        <!-- </div> -->
+      </div>
+
+      <div class="w-[80%] mx-auto py-[5%] max-md:w-[90%] max-md:mx-auto">
+        <h2
+          class=" font-[UBA sans, Roboto, sans-serif] font-[700] text-[#FFFFFF] text-[48px] leading-[60px] text-center pb-[4%] max-md:w-[90%] max-md:mx-auto max-md:text-[20px] max-md:leading-[20px] max-md:pt-[6%]">
+          Countries Of Operation</h2>
+        <div class="bg-background1 border rounded-[20px] p-10 grid grid-cols-4 gap-[20px] max-md:grid max-md:grid-cols-2 max-md:p-5 w-[100%]">
+          <div class="space-y-5 ">
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (61).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (62).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (63).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (64).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (65).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (66).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+          </div>
+          <div class="space-y-5">
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (67).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (68).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (69).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (70).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (71).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (72).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+          </div>
+          <div class="space-y-5 ">
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (73).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (74).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (76).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (40).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (41).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (55).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+          </div>
+          <div class="space-y-5 ">
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (56).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (57).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (58).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (59).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/secondpage/download (60).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>
+            <div class="flex gap-[10px] overflow-hidden transform transition duration-500 ease-in-out hover:scale-105 hover:bg-[#171717] hover:p-2 hover:border hover:rounded-[10px] w-[50%]">
+              <img src="../pages/Images/landingpage/download (41).svg" alt="">
+              <p class="font-[Roboto, sans-serif] text-[#A3A3A3] font-[400] leading-[24px] text-[16px]">America</p>
+            </div>z
+          </div>
+        </div>
+      </div>
+
+
+      <hr class="text-[#393939] mt-[50px] mb-[50px]">
+      <SECTION>
+         <div
+          class="w-[80%] mx-auto flex gap-[50px] pb-[20px] max-[1023px]:w-[90%] max-[1023px]:mx-auto max-[1023px]:block max-[1025px]:w-[96%] max-[1025px]:mx-auto">
+
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%] max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px]">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">About Us</h3>
+            <p class="hover:underline">Who We Are</p>
+            <p class="hover:underline">Our Strategy</p>
+            <p class="hover:underline">Our History</p>
+            <p class="hover:underline">Awards And Achievements</p>
+            <p class="hover:underline">Leadership</p>
+            <p class="hover:underline"> CEO'S Overview</p>
+            <p class="hover:underline">Global Presence</p>
+            <p class="hover:underline">Careers</p>
+          </div>
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%] max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px] ">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">Investors</h3>
+            <p class="hover:underline">Right Issue Circular</p>
+            <p class="hover:underline">Investors Relations</p>
+            <p class="hover:underline">Financial Reports</p>
+            <p class="hover:underline">Investors/Analyst Presentations</p>
+            <p class="hover:underline">Share Price Information</p>
+            <p class="hover:underline"> Credit Ratings</p>
+            <p class="hover:underline">Global Investor Services</p>
+            <p class="hover:underline">Investor Contact</p>
+            <p class="hover:underline">GDR Programme</p>
+          </div>
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%]  max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px]">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">Our Impact</h3>
+            <p class="hover:underline">Our Impact</p>
+            <p class="hover:underline">The UBA Foundation</p>
+            <p class="hover:underline">Sustainability</p>
+          </div>
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%]  max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px]">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">Media Centre</h3>
+            <p class="hover:underline">News</p>
+            <p class="hover:underline">Press Releases</p>
+            <p class="hover:underline">Podcast</p>
+            <p class="hover:underline">Lion King Magazine</p>
+          </div>
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%]  max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px]">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">Help</h3>
+            <p class="hover:underline">Self Care</p>
+            <p class="hover:underline">Security Centre</p>
+            <p class="hover:underline">FAQ</p>
+            <p class="hover:underline">Contact Us</p>
+            <p class="hover:underline">ATM/Branch Locator</p>
+            <p class="hover:underline"> Whistle Blowing</p>
+            <p class="hover:underline">Risk Management Policy</p>
+            <p class="hover:underline">Accessibility</p>
+          </div>
+          <div
+            class="space-y-6 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#A9A9A9] leading-[24px] w-[13%]  max-[1025px]:w-[90%] max-[1025px]:mx-auto text-left pt-[40px]">
+            <h3 class="hover:underline font-[600] text-[#FAFAFA] text-[18px]">Connect</h3>
+            <div class="flex gap-[10px]">
+              <img src="../pages/Images/footer/download (6).svg" alt="">
+              <p class="hover:underline">facebook</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="../pages/Images/footer/download (5).svg" alt="">
+              <p class="hover:underline">Instagram</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="../pages/Images/footer/download (4).svg" alt="">
+              <p class="hover:underline">Youtube</p>
+            </div>
+            <div class="flex gap-[10px]">
+              <img src="../pages/Images/footer/download (3).svg" alt="">
+              <p class="hover:underline">Twitter</p>
+            </div>
+            <p>Get the App</p>
+            <img src="../pages/Images/footer/imgi_14_playstore.svg" alt="">
+            <img src="../pages/Images/footer/imgi_13_Mobile-app-store-badge-2.svg" alt="">
+          </div>
+        </div>
+
+    </div>
+    </SECTION>
+
+
+    <!-- FIFTH SECTION -->
+    <!-- BOTTOM FOOTER -->
+    <SECTION>
+      <div
+        class="bg-background1 font-[UBA Sans, Roboto sans-serif] text-[14px] font-[500] text-[#FAFAFA] leading-[24px]">
+        <div class="flex gap-[30%] w-[80%] mx-auto py-[1%] items-center max-[1025px]:block">
+          <div>
+            <p>© 2025 United Bank for Africa. All Rights Reserved.</p>
+            <p> United Bank for Africa is licensed across 20 African countries, USA, UK, UAE, and France.</p>
+          </div>
+          <div class="flex gap-[50px] max-[1025px]:block max-[1025px]:space-y-4">
+            <p class="max-[1025px]:pt-4">Terms & Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </SECTION>
+    <div class="fixed bottom-10 left-20">
+        <img src="../pages/Images/footer/imgi_1_61155accdcec1597.png" alt="" class="z-50 w-[60%]">
+'
+'
+      </div>
+  </div>
+
+
+  </div>
+</body>
+
+</html>
